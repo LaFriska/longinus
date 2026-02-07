@@ -1,5 +1,6 @@
 import '../../css/App.css'
 import './Column.css'
+import EditableText from '../editabletext/EditableText.tsx'
 import { WHITE } from '../../util/Colours.ts'
 
 /*
@@ -16,10 +17,14 @@ function Column(props: ColumnProps){
         backgroundColor: props.colour
     }
     
+    function onTitleSave(text: string){
+        
+    }
+    
     return (
         <div style={{backgroundColor: WHITE}} className="column">
             <div style={sectionHeaderColour} className="sectionHeader">
-                <p className="sectionHeaderText">{props.title}</p>
+                <EditableText className="sectionHeaderText" initialText={props.title} onSave={onTitleSave}/>
             </div>
         </div>
     )

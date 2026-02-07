@@ -1,5 +1,13 @@
-p {
+p, input{
     font-family: Monaco, Verdana, Helvetica;
+    font-size: medium;
+}
+
+input{
+    background: transparent;
+    border: none;
+    outline: none;
+    text-align: center;
 }
 
 html {

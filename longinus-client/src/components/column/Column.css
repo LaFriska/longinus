@@ -1,18 +1,24 @@
 .column{
-    width: 400px;
+    width: 300px;
     min-height: 150px;
-    border-radius: 6px;
+    border-radius: 3px;
     margin: 16px;
     overflow: hidden;
 }
 
 .sectionHeader {
     font-weight: bold;
-    padding: 3px;
-    padding-left: 3px;
+    padding-top: 3px;
+    padding-bottom: 3px;
     text-align: center;
 }
 
-.sectionHeaderText {
-    margin-left: 6px
+p {
+    margin: 16px;
+    font-size: medium;
+}
+
+input {
+    margin: 15px;
+    font-weight: bold;
 }
