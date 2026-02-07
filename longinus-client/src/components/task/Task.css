@@ -1,0 +1,20 @@
+.taskTitleText {
+    font-size: 11.5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.taskDateTimeText {
+    font-size: 9px;
+    margin-left: 12px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: grey;
+}
+
+.task {
+    margin-top: 5px;
+    border: 1px solid grey;
+}

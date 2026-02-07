@@ -1,8 +1,9 @@
 .column{
-    width: 300px;
+    width: 400px;
     min-height: 150px;
     border-radius: 3px;
     margin: 16px;
+    flex-shrink: 0;
     overflow: hidden;
 }
 

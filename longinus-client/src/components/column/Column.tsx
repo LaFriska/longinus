@@ -8,7 +8,8 @@ Colour 1 to 3 goes from lightest colour to darkest.
 */
 type ColumnProps = {
     colour: string,
-    title: string
+    title: string,
+    children?: React.ReactNode
 }
 
 function Column(props: ColumnProps){
@@ -26,6 +27,7 @@ function Column(props: ColumnProps){
             <div style={sectionHeaderColour} className="sectionHeader">
                 <EditableText className="sectionHeaderText" initialText={props.title} onSave={onTitleSave}/>
             </div>
+            {props.children}
         </div>
     )
     

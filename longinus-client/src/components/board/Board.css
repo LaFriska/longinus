@@ -1,4 +1,7 @@
 .board {
-    display: flex;
-    margin: 32px;
+  display: flex;
+  margin: 32px;
+  /* flex-wrap: nowrap; */
+  overflow-x: auto;
+  min-height: 700px;
 }
