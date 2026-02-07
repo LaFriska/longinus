@@ -6,9 +6,7 @@ function App() {
 
   return ( //TODO wrap in container.
     <div style={{display: "flex"}}>
-      <Column colour1={Utils.LIGHT_LIGHT_BLUE}
-              colour2={Utils.LIGHT_BLUE}
-              colour3={Utils.BLUE}
+      <Column colour={Utils.BLUE}
               title="TODO"/>
     </div>
   )

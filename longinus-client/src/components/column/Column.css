@@ -1,15 +1,16 @@
 .column{
     width: 400px;
-    height: 600px;
+    min-height: 150px;
     border-radius: 6px;
     margin: 16px;
+    overflow: hidden;
 }
 
 .sectionHeader {
     font-weight: bold;
     padding: 3px;
     padding-left: 3px;
-    border-radius: 6px;
+    text-align: center;
 }
 
 .sectionHeaderText {
