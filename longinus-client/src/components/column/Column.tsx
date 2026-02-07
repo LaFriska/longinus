@@ -17,7 +17,7 @@ function Column(props: ColumnProps){
         backgroundColor: props.colour
     }
     
-    function onTitleSave(text: string){
+    function onTitleSave(_text: string){
         //TODO to be done when backend is implemented
     }
     
