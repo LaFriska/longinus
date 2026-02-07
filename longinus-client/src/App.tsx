@@ -1,6 +1,5 @@
 import './css/App.css'
 import Board from './components/board/Board.tsx'
-import * as Utils from './util/Colours.ts'
 
 function App() {
   

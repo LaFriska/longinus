@@ -1,7 +1,6 @@
 import './Board.css'
 import Column from '../column/Column'
 import * as Utils from '../../util/Colours.ts'
-import { BLUE, GREEN, RED } from '../../util/Colours'
 
 function Board(){
     
