@@ -18,7 +18,7 @@ function Column(props: ColumnProps){
     }
     
     function onTitleSave(text: string){
-        
+        //TODO to be done when backend is implemented
     }
     
     return (
