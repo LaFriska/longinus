@@ -1,0 +1,17 @@
+.column{
+    width: 400px;
+    height: 600px;
+    border-radius: 6px;
+    margin: 16px;
+}
+
+.sectionHeader {
+    font-weight: bold;
+    padding: 3px;
+    padding-left: 3px;
+    border-radius: 6px;
+}
+
+.sectionHeaderText {
+    margin-left: 6px
+}
